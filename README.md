@@ -56,7 +56,7 @@ Flask commands description:
   |  /api/movie-relations  | PUT       | add relations. Body can include: id (movie), relation_id (actor)   |
   |  /api/movie-relations  | DELETE    | delete relations by id                                             |
    
-If someting is wrong with request, response status code will be 400 and it will call messege about error. If all is correct, response status code will be 200.
+If something is wrong with request, response status code will be 400 and it will call message about error. If all is correct, response status code will be 200.
 
 Example:  
 ![image](https://user-images.githubusercontent.com/77074682/122412729-7c246e00-cf8e-11eb-9fcb-7627016c5fdf.png '/api/actors GET')
