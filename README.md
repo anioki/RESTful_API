@@ -30,14 +30,15 @@ app
     │ 
     ├── run.py                  - application run file.
     |
-    ├── Dockerfile				      - commands used for Dockerization
+    ├── Dockerfile              - commands used for Dockerization
     |
-    └── requirements.txt		    - list of libraries used for Dockerization
+    └── requirements.txt        - list of libraries used for Dockerization
 
 ````   
 ### In work  
-API works with postgreSQL database. Database theme: movies and actors
-  
+API works with postgreSQL database. Database theme: movies and actors  
+ERD-diagram for database:  
+![image](https://user-images.githubusercontent.com/77074682/122639067-72227c80-d100-11eb-975d-a0bf4bfb21a8.png 'Database')   
 Flask commands description:
   | route| method    | description| 
 --- | --- | ---
